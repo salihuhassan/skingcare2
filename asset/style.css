@@ -1,0 +1,290 @@
+header{
+    height:auto;
+    background-color: rgba(0, 128, 107, 0.685);
+    text-align: center;
+}
+.yellow-star{
+    color: yellow;
+}
+a{
+    color: aliceblue;
+    text-transform: capitalize;
+}
+#gay{
+    background-color: black;
+    padding: 30px;
+    text-align: justify;
+    line-height: 20px;
+}
+p{
+text-transform:capitalize;
+}
+#bas{
+    float: right;
+}
+h1{
+    text-align: center;
+
+}
+#box{
+  color: beige;
+}
+button{
+    width: 100px;
+    border-radius: 10px;
+    background-color: aqua;
+    padding: 10px;
+}
+#est{
+background-color: white;
+
+}
+.os{
+    height: auto;
+}
+.o{
+    
+    height: auto;
+    
+}
+.das{
+    border: 0;
+    width: 250px;
+    height: auto;
+    display: inline-block;
+    margin-left: 10px;
+    text-align: center;
+}
+.das img{
+    width: 100%;
+}
+
+#xas{
+  
+    text-align: center;
+    padding: 20px;
+    
+
+}
+#was{
+ 
+    float: left;
+}
+
+#test{
+    text-align: justify;
+    width: auto;
+    margin: 20px auto;
+}
+#gres{
+
+    display: inline-block;
+}
+
+h2{
+    text-align: center;
+    color: beige;
+    
+}
+.vaz{
+    color: black;
+    text-transform: uppercase;
+  
+}
+h3{
+    text-align: center;
+}
+
+#has{
+
+background-color: rgba(0, 128, 111, 0.753);
+
+
+}
+#fas{
+    width: 200px;
+    height: 106px;
+}
+.bestseller{
+    display:flex;
+    justify-content: center;
+    line-height: 14px;
+}
+.jas{
+    border: 5px;
+    height: auto;
+    background-color:white;
+    text-align: center;  
+    margin: 10px;  
+}
+
+
+.fat{
+    border: 1px;
+    height: auto;
+  
+}
+#fa{
+    width: 200px;
+    height: auto;
+}
+
+#fad{
+    width: 200px;
+    height: auto;
+}
+#ha{
+    border: 1px;
+    width: auto;
+    height: 300px;
+    background-color: bisque; 
+    padding: 20px;
+}
+
+#kas{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    float: left;
+
+}
+#kast{
+    width:auto;
+    height: 100%;
+    background-color: rgba(245, 245, 220, 0.053);
+    padding-left: 20px;
+}
+#kast p{
+    text-align: justify;
+}
+#kav{
+    width: 400px;
+    height: auto;
+    padding: 20px;
+}
+.ka{
+    border: 1px;
+    width: auto;
+    height: auto;
+    border-left : solid rgb(0, 128, 90);
+    border-top: solid rgb(0, 119, 128);
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-right: none;
+    border-bottom: none;
+    background-color:white;
+    display: inline-block;
+    padding: 19px;
+}
+#los{
+    width: auto;
+    height: auto;
+    background-color:palegoldenrod;
+    
+}
+#ban{
+    border: 2px;
+    width: auto;
+    height: auto;
+    border: double;
+    border-color: aqua;
+    display: flex;
+}
+#po{
+    width: auto;
+    height: 200px;
+    text-align: center;
+    background-color: rgba(0, 128, 128, 0.692);
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+#pos{
+    width: 400px;
+    height: 180px;
+    text-align: justify;
+   
+    
+    
+}
+
+input{
+    background-color:rgba(0, 128, 0, 0.178) ;
+    border-color: white;
+    height: 36px;
+    width: 190px;
+
+}
+
+#side_text{
+    text-align: justify;
+    margin:5px;
+}
+#cast{
+    background-color: white;
+   width: auto;
+   height: auto; 
+}
+
+#cas{
+   width: 100%;
+     height: 100px;
+   
+}
+#bax{
+    padding: 20px;
+}
+@media screen and (max-width:500px){
+    header{
+        flex-direction: column;
+        padding: 20px;
+          justify-content:flex-start
+    }
+    
+   #xas{
+    flex-direction: column;
+   }
+.das{
+    width: 40%;
+    margin: 5px;
+    text-align: justify;
+}
+#test{
+    flex-direction: column;
+}
+#has{
+   
+    margin: 5px;
+}
+.bestseller{
+    flex-wrap: wrap;
+ 
+    
+}
+.jas{
+    width: 40%;
+    margin: 3px;
+}
+.fat{
+    width: 100%;
+  
+}
+#was{
+padding-left:  70px;
+}
+#gres{
+    flex-wrap: wrap;
+    margin: 20px;
+}
+#kast{
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.357);
+}
+#ka,h3,.ser{
+    padding: 20px;
+}
+#est{
+    flex-wrap: wrap;
+}
+
+}
